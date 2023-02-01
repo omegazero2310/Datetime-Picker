@@ -86,8 +86,7 @@
 		<AndroidSigningKeyPass></AndroidSigningKeyPass>
 
 		<AndroidSigningStorePass></AndroidSigningStorePass>
-		<AndroidSdkDirectory>$(ANDROID_SDK_PATH)</AndroidSdkDirectory>
-    		<AndroidNdkDirectory>$(ANDROID_NDK_PATH)</AndroidNdkDirectory>
+		<AndroidSdkDirectory>/home/an_nguyenan_1998/Android/Sdk/</AndroidSdkDirectory>
 
 	</PropertyGroup>
 
