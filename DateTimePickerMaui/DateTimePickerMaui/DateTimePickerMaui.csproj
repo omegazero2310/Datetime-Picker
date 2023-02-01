@@ -86,6 +86,7 @@
 		<AndroidSigningKeyPass></AndroidSigningKeyPass>
 
 		<AndroidSigningStorePass></AndroidSigningStorePass>
+		 <AndroidSdkDirectory>/home/an_nguyenan_1998/Android/Sdk</AndroidSdkDirectory>
 
 	</PropertyGroup>
 
