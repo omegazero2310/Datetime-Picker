@@ -92,9 +92,9 @@
 	<PropertyGroup Condition="$(TargetFramework.Contains('-ios')) and '$(Configuration)' == 'Release'">
         	<RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
     	</PropertyGroup>
-	 <PropertyGroup Condition="$(TargetFramework.Contains('-ios')) and '$(Configuration)' == 'Debug'">
+	 <!--<PropertyGroup Condition="$(TargetFramework.Contains('-ios')) and '$(Configuration)' == 'Debug'">
         	<RuntimeIdentifier>iossimulator-x64</RuntimeIdentifier>
-    	</PropertyGroup>
+    	</PropertyGroup>-->
 
 
 </Project>
