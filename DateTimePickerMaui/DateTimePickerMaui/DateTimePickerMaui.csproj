@@ -89,7 +89,7 @@
 		<AndroidSdkDirectory>/home/an_nguyenan_1998/Android/Sdk/</AndroidSdkDirectory>
 
 	</PropertyGroup>
-	<PropertyGroup Condition="$(TargetFramework.Contains('-ios')) and '$(Configuration)' == 'Release'">
+	<PropertyGroup Condition="$(TargetFramework.Contains('-ios'))">
         	<RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
     	</PropertyGroup>
 	 <!--<PropertyGroup Condition="$(TargetFramework.Contains('-ios')) and '$(Configuration)' == 'Debug'">
