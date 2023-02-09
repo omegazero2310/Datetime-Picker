@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('linux'))">
+		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('linux') or [MSBuild]::IsOSPlatform('windows'))">
 
 			net7.0-android;
 
